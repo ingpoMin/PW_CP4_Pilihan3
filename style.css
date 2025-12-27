@@ -43,3 +43,59 @@ button:hover {
     border-radius: 5px;
     margin-bottom: 15px;
 }
+
+.welcome {
+            max-width: 600px;
+            margin: 0 auto;
+            text-align: center;
+            background: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+        }
+        
+        .img-mobil {
+            width: 100%;
+            height: auto;
+            border-radius: 15px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
+        .deskripsi-mobil {
+            background-color: #f8f9fa;
+            border-left: 5px solid #28a745;
+            text-align: left;
+            padding: 15px 20px;
+            margin-bottom: 25px;
+            border-radius: 5px;
+        }
+
+        .deskripsi-mobil h3 {
+            margin-top: 0;
+            color: #333;
+        }
+
+        .deskripsi-mobil ul {
+            padding-left: 20px;
+            margin-bottom: 0;
+        }
+
+        .deskripsi-mobil li {
+            margin-bottom: 5px;
+            color: #555;
+        }
+
+        .logout-btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #dc3545;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+            transition: 0.3s;
+        }
+        .logout-btn:hover {
+            background-color: #c82333;
+        }

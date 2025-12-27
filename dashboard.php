@@ -17,15 +17,24 @@ if($_SESSION['status'] != "login"){
 </head>
 <body>
 
-    <div class="welcome">
-        <h1>Selamat Datang, Admin!</h1>
-        <div class="carousel-item active">
-        <img src="https://i.pinimg.com/1200x/64/48/79/644879bdaa25b030538852706fde40a7.jpg" class="d-block w-100" alt="...">
-        </div>
-        <p>Halo <strong><?php echo $_SESSION['username']; ?></strong>, Anda berhasil login ke dalam sistem.</p>
-        <p>Ini adalah halaman dashboard. Hanya user yang sudah login yang bisa melihat halaman ini.</p>
+<div class="welcome">
+        <h1>Selamat Datang</h1>
 
-        <a href="logout.php" class="logout">Logout</a>
+        <img src="https://i.pinimg.com/1200x/64/48/79/644879bdaa25b030538852706fde40a7.jpg" class="img-mobil" alt="Porsche 911 RSR">
+
+        <div class="deskripsi-mobil">
+            <h3>Porsche 911 RSR GTE</h3>
+            <ul>
+                <li><strong>Mesin:</strong> Boxer 6 silinder 4194cc tanpa turbo</li>
+                <li><strong>Transmisi:</strong> 6 percepatan squential dengan paddle shifter</li>
+                <li><strong>Posisi mesin:</strong> Mid-engine</li>
+                <li><strong>Penggerak:</strong> Roda belakang</li>
+            </ul>
+        </div>
+
+        <p>Halo <strong><?php echo $_SESSION['username']; ?></strong>, Anda berhasil login.</p>
+        
+        <a href="logout.php" class="logout-btn">Logout</a>
     </div>
 
 </body>
